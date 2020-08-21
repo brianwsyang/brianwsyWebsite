@@ -3,12 +3,15 @@
   padding: 0px;
   font-family: 'Raleway', sans-serif;
   position: relative;
+  height: auto;
+  width: auto;
 }
 
 .top {
   background-color: #70757d;
   width: 100%;
   height: 8%;
+  min-height: 75px;
   padding: 0% 2.5%;
   z-index: 10;
   position: fixed;
@@ -18,9 +21,10 @@
 }
 
 .nav {
-  width: 87.5%;
+  width: 90%;
+  height: 90%;
+  padding-right: 2.5%;
   align-items: right;
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -32,9 +36,9 @@
   display: block;
   color: #b5c6d5;
   text-align: center;
-  padding: 8px 7px;
+  padding: 9px 9px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.12em;
 }
@@ -43,13 +47,24 @@
   color: #2355a7;
 }
 
+.nav img {
+  height: 40px;
+}
+
 #homeBkgrd {
-  background-image: url("images/sf01.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 15%;
-  width: 100%;
-  opacity: 0.8;
+  background-image: url("images/sf02.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 450px;
+}
+
+#homeBkgrd p {
+  text-align: center;
+  vertical-align: bottom;
+  color: #e6eff7;
+  letter-spacing: 0.15em;
+  font-size: 150px;
 }
 
 .topnav {
