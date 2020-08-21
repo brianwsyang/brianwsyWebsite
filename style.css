@@ -60,8 +60,8 @@
 }
 
 #homeBkgrd p {
+  padding-top: 200px;
   text-align: center;
-  vertical-align: bottom;
   color: #e6eff7;
   letter-spacing: 0.15em;
   font-size: 150px;
@@ -79,7 +79,26 @@
   padding: 0% 2.5%;
   z-index: 10;
 }
-  
+
+#about {
+  background-color:#e6eff7;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  padding: 30px 20px 10px;
+}
+
+#aboutMe p {
+  font-size: 24px;
+  padding: 60px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
