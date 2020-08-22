@@ -8,6 +8,6 @@ function myFunction() {
   }
 }
 
-$("#test").fadeOut(function() {
+$("#home").fadeOut(function() {
   $(this).text("test").fadeIn();
 })

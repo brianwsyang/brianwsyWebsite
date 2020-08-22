@@ -1,4 +1,5 @@
 * {
+  background-color: #e6eff7;
   margin: 0px;
   padding: 0px;
   font-family: 'Raleway', sans-serif;
@@ -20,7 +21,14 @@
   align-items: center;
 }
 
+.top img{
+  background-color: #70757d;
+  height:90%;
+  width:auto;
+}
+
 .nav {
+  background-color: #70757d;
   width: 90%;
   height: 90%;
   padding-right: 2.5%;
@@ -32,6 +40,7 @@
 }
 
 .nav a {
+  background-color: #70757d;
   float: left;
   display: block;
   color: #b5c6d5;
@@ -52,14 +61,17 @@
 }
 
 #homeBkgrd {
+  background-color: #70757d;
   background-image: url("images/sf02.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.9;
   height: 450px;
+  width: 100%;
 }
 
 #homeBkgrd p {
+  background-color: transparent;
   padding-top: 200px;
   text-align: center;
   color: #e6eff7;
@@ -67,21 +79,8 @@
   font-size: 150px;
 }
 
-.topnav {
-  background-color: #70757d;
-  overflow: hidden;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 7.5%;
-  display: flex;
-  flex-direction: row;
-  padding: 0% 2.5%;
-  z-index: 10;
-}
-
 #about {
-  background-color:#e6eff7;
+  margin: 75px 10px 50px;
 }
 
 #aboutMe {
@@ -89,14 +88,24 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding: 30px 20px 10px;
+  border-radius: 5px;
+  border: 3px solid #b5c6d5;
 }
 
 #aboutMe p {
-  font-size: 24px;
-  padding: 60px;
+  width: 35%;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  padding: 30px 50px;
+}
+
+#aboutMe img {
+  width: 25%;
+  padding: 40px;
+  border-radius: 5px;
 }
 
 /* Style the links inside the navigation bar */
