@@ -22,13 +22,13 @@
 }
 
 .top img{
-  background-color: #70757d;
+  background-color: inherit;
   height:90%;
   width:auto;
 }
 
 .nav {
-  background-color: #70757d;
+  background-color: inherit;
   width: 90%;
   height: 90%;
   padding-right: 2.5%;
@@ -40,7 +40,7 @@
 }
 
 .nav a {
-  background-color: #70757d;
+  background-color: inherit;
   float: left;
   display: block;
   color: #b5c6d5;
@@ -61,7 +61,6 @@
 }
 
 #homeBkgrd {
-  background-color: #70757d;
   background-image: url("images/sf02.jpg");
   background-size: cover;
   background-position: center;
@@ -106,6 +105,17 @@
   width: 25%;
   padding: 40px;
   border-radius: 5px;
+}
+
+#projs {
+  background-color: #2355a7;
+}
+
+#projs p {
+  background-color: inherit;
+  font-size: 36px;
+  padding: 10px;
+  letter-spacing: 0.2em;
 }
 
 /* Style the links inside the navigation bar */
