@@ -78,7 +78,7 @@
   font-size: 150px;
 }
 
-#about {
+.about {
   margin: 75px 10px 50px;
 }
 
@@ -107,11 +107,16 @@
   border-radius: 5px;
 }
 
-#projs {
-  
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  margin: auto;
 }
 
-#projs p {
+.cv p {
   background-color: inherit;
   font-size: 36px;
   padding: 10px;
