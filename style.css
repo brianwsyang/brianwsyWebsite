@@ -116,11 +116,20 @@
   margin: auto;
 }
 
+.cvExp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 70%;
+}
+
 .cv p {
   background-color: inherit;
   font-size: 36px;
-  padding: 10px;
+  padding: 20px 10px;
   letter-spacing: 0.2em;
+  text-align: center;
 }
 
 /* Style the links inside the navigation bar */
