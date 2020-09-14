@@ -107,7 +107,7 @@
   border-radius: 5px;
 }
 
-.cv {
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,16 +116,16 @@
   margin: 45px auto;
 }
 
-.cv p {
+.section p {
   background-color: inherit;
-  font-size: 36px;
+  font-size: 30px;
   padding: 20px 10px;
   letter-spacing: 0.2em;
   text-align: center;
 }
 
 .cvExp {
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 
@@ -151,20 +151,34 @@
 }
 
 .cvExp p.title b {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .cvExp p.exp {
   background-color: inherit;
   font-size: 12px;
   padding: 20px 10px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: 180%;
   text-align: left;
 }
 
 .cvExp p.exp b {
   font-size: 16px;
+}
+
+.courses {
+  width: 90%;
+  margin: auto;
+}
+
+.courses th.classes {
+  width: 33%;
+}
+
+.courses p.classes {
+  font-size: 12px;
+  padding: 15px 10px;
 }
 
 /* Style the links inside the navigation bar */
