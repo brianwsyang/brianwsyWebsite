@@ -151,7 +151,7 @@
 }
 
 .cvExp p.title b {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .cvExp p.exp {
@@ -179,6 +179,19 @@
 .courses p.classes {
   font-size: 12px;
   padding: 15px 10px;
+}
+
+footer {
+  background-color: #2355a7;
+  padding: 30px 15% 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #e6eff7;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* Style the links inside the navigation bar */
