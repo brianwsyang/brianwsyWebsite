@@ -224,18 +224,15 @@
 
 .projsImg p {
   font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
   text-align: center;
-  padding: 20px 15px;
+  padding: 25px;
 }
 
 .projs td {
   vertical-align: middle;
   text-align: center;
-}
-
-.projs p.proj {
-  font-size: 12px;
-  padding: 15px 10px;
 }
 
 footer {
@@ -251,34 +248,6 @@ footer {
   text-align: center;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: #b5c6d5;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-  
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #b5c6d5;
-  color: #70757d;
-}
-  
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #2355a7;
-  color: #b5c6d5;
-}
-  
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
-  
 /* When the screen is less than 600 pixels wide, hide all links, 
    except for the first one ("Home").
    Show the link that contains should open and close the topnav (.icon) */
