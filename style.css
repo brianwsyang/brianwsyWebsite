@@ -232,6 +232,7 @@
 
 .projsDesc a {
   text-decoration: none;
+  top: 20%;
 }
 
 .projsImg:hover .projsDesc {
@@ -240,7 +241,7 @@
 }
 
 .projsImg p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.1em;
   text-align: center;
